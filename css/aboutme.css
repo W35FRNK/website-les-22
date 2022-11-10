@@ -1,0 +1,54 @@
+.message {
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  text-align: center;
+  padding: .5rem 2rem;
+  max-width: 95%;
+  border: solid black 1px;
+  margin: .5rem auto;
+  background-color: #DDDBF1;
+  border-radius: 3px;
+
+  
+}
+
+h2 {
+  color: #333;
+}
+
+
+.row {
+  row-gap: .5rem;
+}
+
+.col-sm-8 {
+  background-color: #DDDBF1;
+  color: #333;
+}
+
+
+.col-sm-4 {
+  background-color: #3c4f7c;
+  color: #fff;
+}
+
+.accordion-body {
+  color:#3c4f7c;
+  background-color: #fff;
+  
+  margin-top: 5px;
+  
+}
+
+
+
+
+
+@media (max-width: 576px) {
+  .message {
+    display: flex;
+    max-width: 100%;
+  }
+
+  }
